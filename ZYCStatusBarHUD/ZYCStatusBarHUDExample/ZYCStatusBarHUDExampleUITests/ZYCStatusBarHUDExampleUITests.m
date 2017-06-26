@@ -1,6 +1,6 @@
 //
-//  ZYCStatuBarHUDUITests.m
-//  ZYCStatuBarHUDUITests
+//  ZYCStatusBarHUDExampleUITests.m
+//  ZYCStatusBarHUDExampleUITests
 //
 //  Created by wpzyc on 2017/6/26.
 //  Copyright © 2017年 wpzyc. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface ZYCStatuBarHUDUITests : XCTestCase
+@interface ZYCStatusBarHUDExampleUITests : XCTestCase
 
 @end
 
-@implementation ZYCStatuBarHUDUITests
+@implementation ZYCStatusBarHUDExampleUITests
 
 - (void)setUp {
     [super setUp];

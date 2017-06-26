@@ -1,6 +1,6 @@
 //
 //  main.m
-//  ZYCStatuBarHUD
+//  ZYCStatusBarHUDExample
 //
 //  Created by wpzyc on 2017/6/26.
 //  Copyright © 2017年 wpzyc. All rights reserved.

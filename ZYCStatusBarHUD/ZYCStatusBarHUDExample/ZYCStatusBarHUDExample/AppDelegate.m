@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  ZYCStatuBarHUD
+//  ZYCStatusBarHUDExample
 //
 //  Created by wpzyc on 2017/6/26.
 //  Copyright © 2017年 wpzyc. All rights reserved.
@@ -58,7 +58,7 @@
     // The persistent container for the application. This implementation creates and returns a container, having loaded the store for the application to it.
     @synchronized (self) {
         if (_persistentContainer == nil) {
-            _persistentContainer = [[NSPersistentContainer alloc] initWithName:@"ZYCStatuBarHUD"];
+            _persistentContainer = [[NSPersistentContainer alloc] initWithName:@"ZYCStatusBarHUDExample"];
             [_persistentContainer loadPersistentStoresWithCompletionHandler:^(NSPersistentStoreDescription *storeDescription, NSError *error) {
                 if (error != nil) {
                     // Replace this implementation with code to handle the error appropriately.

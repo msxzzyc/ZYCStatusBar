@@ -1,6 +1,6 @@
 //
-//  ZYCStatuBarHUD.h
-//  ZYCStatuBarHUD
+//  ZYCStatusBarHUD.h
+//  ZYCStatusBarHUD
 //
 //  Created by wpzyc on 2017/6/26.
 //  Copyright © 2017年 wpzyc. All rights reserved.
@@ -9,7 +9,7 @@
 // 0.0.0
 #import <UIKit/UIKit.h>
 
-@interface ZYCStatuBarHUD : NSObject
+@interface ZYCStatusBarHUD : NSObject
 //显示窗口
 + (void)setUpWindow;
 /**

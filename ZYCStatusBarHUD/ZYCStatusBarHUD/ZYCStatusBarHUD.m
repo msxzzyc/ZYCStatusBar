@@ -1,19 +1,19 @@
 //
-//  ZYCStatuBarHUD.m
-//  ZYCStatuBarHUD
+//  ZYCStatusBarHUD.m
+//  ZYCStatusBarHUD
 //
 //  Created by wpzyc on 2017/6/26.
 //  Copyright © 2017年 wpzyc. All rights reserved.
 //
 
-#import "ZYCStatuBarHUD.h"
+#import "ZYCStatusBarHUD.h"
 
 #define ZYCMessageFont [UIFont systemFontOfSize:12]
 /**消息的停留时间*/
 static CGFloat const ZYCMessageDuration = 2.0;
 /**动画的显示/隐藏时间*/
 static CGFloat const ZYCAnimationDuration = 0.25;
-@implementation ZYCStatuBarHUD
+@implementation ZYCStatusBarHUD
 /** 全局的窗口*/
 static UIWindow *window_;
 /** 定时器*/
@@ -86,14 +86,14 @@ static NSTimer *timer_;
  */
 + (void)showSuccess:(NSString *)msg
 {
-    [self showMessage:msg image:[UIImage imageNamed:@"ZYCStatuBarHUD.bundle/check"]];
+    [self showMessage:msg image:[UIImage imageNamed:@"ZYCStatusBarHUD.bundle/check"]];
 }
 /**
  *显示失败信息
  */
 + (void)showError:(NSString *)msg
 {
-    [self showMessage:msg image:[UIImage imageNamed:@"ZYCStatuBarHUD.bundle/error"]];
+    [self showMessage:msg image:[UIImage imageNamed:@"ZYCStatusBarHUD.bundle/error"]];
 }
 /**
  *显示正在处理信息
