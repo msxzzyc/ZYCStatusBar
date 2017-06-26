@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ZYCStatusBarHUD.h"
 @interface ViewController ()
 
 @end
@@ -15,20 +15,20 @@
 @implementation ViewController
 
 - (IBAction)success:(id)sender {
-    [ZYCStatuBarHUD showSuccess:@"加载成功"];
+    [ZYCStatusBarHUD showSuccess:@"加载成功"];
 }
 - (IBAction)error:(id)sender {
-    [ZYCStatuBarHUD showError:@"加载失败"];
+    [ZYCStatusBarHUD showError:@"加载失败"];
 }
 - (IBAction)message:(id)sender {
-    [ZYCStatuBarHUD showMessage:@"没啥事"];
+    [ZYCStatusBarHUD showMessage:@"没啥事" image:nil ];
     
 }
 - (IBAction)loading:(id)sender {
-    [ZYCStatuBarHUD showLoading:@"正在加载..."];
+    [ZYCStatusBarHUD showLoading:@"正在加载..."];
 }
 - (IBAction)hide:(id)sender {
-    [ZYCStatuBarHUD hide];
+    [ZYCStatusBarHUD hide];
 }
 
 - (void)viewDidLoad {

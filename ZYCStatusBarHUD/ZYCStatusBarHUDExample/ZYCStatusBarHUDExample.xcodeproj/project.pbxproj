@@ -15,8 +15,8 @@
 		12F0611D1F015FCE0008E1F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12F0611C1F015FCE0008E1F5 /* Assets.xcassets */; };
 		12F061201F015FCE0008E1F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12F0611E1F015FCE0008E1F5 /* LaunchScreen.storyboard */; };
 		12F0612B1F015FCE0008E1F5 /* ZYCStatusBarHUDExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F0612A1F015FCE0008E1F5 /* ZYCStatusBarHUDExampleUITests.m */; };
-		12F0613F1F0161330008E1F5 /* ZYCStatuBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 12F0613C1F0161330008E1F5 /* ZYCStatuBarHUD.bundle */; };
-		12F061401F0161330008E1F5 /* ZYCStatuBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F0613E1F0161330008E1F5 /* ZYCStatuBarHUD.m */; };
+		12F061611F0169C00008E1F5 /* ZYCStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 12F061491F0169C00008E1F5 /* ZYCStatusBarHUD.bundle */; };
+		12F061621F0169C00008E1F5 /* ZYCStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F0614B1F0169C00008E1F5 /* ZYCStatusBarHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,9 +44,9 @@
 		12F061261F015FCE0008E1F5 /* ZYCStatusBarHUDExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYCStatusBarHUDExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12F0612A1F015FCE0008E1F5 /* ZYCStatusBarHUDExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYCStatusBarHUDExampleUITests.m; sourceTree = "<group>"; };
 		12F0612C1F015FCE0008E1F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		12F0613C1F0161330008E1F5 /* ZYCStatuBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZYCStatuBarHUD.bundle; sourceTree = "<group>"; };
-		12F0613D1F0161330008E1F5 /* ZYCStatuBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCStatuBarHUD.h; sourceTree = "<group>"; };
-		12F0613E1F0161330008E1F5 /* ZYCStatuBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCStatuBarHUD.m; sourceTree = "<group>"; };
+		12F061491F0169C00008E1F5 /* ZYCStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZYCStatusBarHUD.bundle; sourceTree = "<group>"; };
+		12F0614A1F0169C00008E1F5 /* ZYCStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCStatusBarHUD.h; sourceTree = "<group>"; };
+		12F0614B1F0169C00008E1F5 /* ZYCStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCStatusBarHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,7 @@
 		12F0610C1F015FCD0008E1F5 /* ZYCStatusBarHUDExample */ = {
 			isa = PBXGroup;
 			children = (
-				12F0613B1F0161330008E1F5 /* ZYCStatuBarHUD */,
+				12F061471F0169C00008E1F5 /* ZYCStatusBarHUD */,
 				12F061101F015FCD0008E1F5 /* AppDelegate.h */,
 				12F061111F015FCD0008E1F5 /* AppDelegate.m */,
 				12F061131F015FCD0008E1F5 /* ViewController.h */,
@@ -120,15 +120,23 @@
 			path = ZYCStatusBarHUDExampleUITests;
 			sourceTree = "<group>";
 		};
-		12F0613B1F0161330008E1F5 /* ZYCStatuBarHUD */ = {
+		12F061471F0169C00008E1F5 /* ZYCStatusBarHUD */ = {
 			isa = PBXGroup;
 			children = (
-				12F0613C1F0161330008E1F5 /* ZYCStatuBarHUD.bundle */,
-				12F0613D1F0161330008E1F5 /* ZYCStatuBarHUD.h */,
-				12F0613E1F0161330008E1F5 /* ZYCStatuBarHUD.m */,
+				12F061481F0169C00008E1F5 /* ZYCStatusBarHUD */,
 			);
-			name = ZYCStatuBarHUD;
-			path = ../../../../Documents/ZYCStatusBarHUD/ZYCStatusBarHUD/ZYCStatuBarHUD/ZYCStatuBarHUD/ZYCStatuBarHUD;
+			name = ZYCStatusBarHUD;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		12F061481F0169C00008E1F5 /* ZYCStatusBarHUD */ = {
+			isa = PBXGroup;
+			children = (
+				12F061491F0169C00008E1F5 /* ZYCStatusBarHUD.bundle */,
+				12F0614A1F0169C00008E1F5 /* ZYCStatusBarHUD.h */,
+				12F0614B1F0169C00008E1F5 /* ZYCStatusBarHUD.m */,
+			);
+			path = ZYCStatusBarHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,7 +223,7 @@
 			files = (
 				12F061201F015FCE0008E1F5 /* LaunchScreen.storyboard in Resources */,
 				12F0611D1F015FCE0008E1F5 /* Assets.xcassets in Resources */,
-				12F0613F1F0161330008E1F5 /* ZYCStatuBarHUD.bundle in Resources */,
+				12F061611F0169C00008E1F5 /* ZYCStatusBarHUD.bundle in Resources */,
 				12F061181F015FCE0008E1F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,8 +242,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12F061401F0161330008E1F5 /* ZYCStatuBarHUD.m in Sources */,
 				12F061151F015FCD0008E1F5 /* ViewController.m in Sources */,
+				12F061621F0169C00008E1F5 /* ZYCStatusBarHUD.m in Sources */,
 				12F061121F015FCD0008E1F5 /* AppDelegate.m in Sources */,
 				12F0610F1F015FCD0008E1F5 /* main.m in Sources */,
 				12F0611B1F015FCE0008E1F5 /* ZYCStatusBarHUDExample.xcdatamodeld in Sources */,
@@ -433,6 +441,7 @@
 				12F061311F015FCE0008E1F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12F061321F015FCE0008E1F5 /* Build configuration list for PBXNativeTarget "ZYCStatusBarHUDExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +450,7 @@
 				12F061341F015FCE0008E1F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
