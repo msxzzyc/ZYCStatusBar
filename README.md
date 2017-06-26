@@ -6,9 +6,9 @@
 [ZYCStatusBarHUD showSuccess:@"加载成功"];
 
 ##显示成功信息
-...objc
+'''objc
 [ZYCStatusBarHUD showError:@"加载失败"];
-...
+'''
 ##显示加载信息
 [ZYCStatusBarHUD showLoading:@"正在加载..."];
 
