@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		120E3B591F014E7700E1C851 /* ZYCStatuBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 120E3B541F014E7700E1C851 /* ZYCStatuBarHUD.m */; };
+		120E3B5B1F0151B500E1C851 /* ZYCStatuBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 120E3B5A1F0151B500E1C851 /* ZYCStatuBarHUD.bundle */; };
 		12AF13AB1F001AD600D702F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AF13AA1F001AD600D702F1 /* main.m */; };
 		12AF13AE1F001AD600D702F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AF13AD1F001AD600D702F1 /* AppDelegate.m */; };
 		12AF13B11F001AD600D702F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AF13B01F001AD600D702F1 /* ViewController.m */; };
@@ -15,7 +17,6 @@
 		12AF13B91F001AD600D702F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12AF13B81F001AD600D702F1 /* Assets.xcassets */; };
 		12AF13BC1F001AD600D702F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12AF13BA1F001AD600D702F1 /* LaunchScreen.storyboard */; };
 		12AF13C71F001AD600D702F1 /* ZYCStatuBarHUDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AF13C61F001AD600D702F1 /* ZYCStatuBarHUDUITests.m */; };
-		12AF13D31F001AFD00D702F1 /* ZYCStatuBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AF13D21F001AFD00D702F1 /* ZYCStatuBarHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		120E3B531F014E7700E1C851 /* ZYCStatuBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCStatuBarHUD.h; sourceTree = "<group>"; };
+		120E3B541F014E7700E1C851 /* ZYCStatuBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCStatuBarHUD.m; sourceTree = "<group>"; };
+		120E3B5A1F0151B500E1C851 /* ZYCStatuBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZYCStatuBarHUD.bundle; sourceTree = "<group>"; };
 		12AF13A61F001AD500D702F1 /* ZYCStatuBarHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYCStatuBarHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12AF13AA1F001AD600D702F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		12AF13AC1F001AD600D702F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,8 +47,6 @@
 		12AF13C21F001AD600D702F1 /* ZYCStatuBarHUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYCStatuBarHUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12AF13C61F001AD600D702F1 /* ZYCStatuBarHUDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYCStatuBarHUDUITests.m; sourceTree = "<group>"; };
 		12AF13C81F001AD600D702F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		12AF13D11F001AFD00D702F1 /* ZYCStatuBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCStatuBarHUD.h; sourceTree = "<group>"; };
-		12AF13D21F001AFD00D702F1 /* ZYCStatuBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCStatuBarHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		120E3B4E1F014E7700E1C851 /* ZYCStatuBarHUD */ = {
+			isa = PBXGroup;
+			children = (
+				120E3B5A1F0151B500E1C851 /* ZYCStatuBarHUD.bundle */,
+				120E3B531F014E7700E1C851 /* ZYCStatuBarHUD.h */,
+				120E3B541F014E7700E1C851 /* ZYCStatuBarHUD.m */,
+			);
+			path = ZYCStatuBarHUD;
+			sourceTree = "<group>";
+		};
 		12AF139D1F001AD500D702F1 = {
 			isa = PBXGroup;
 			children = (
@@ -86,8 +98,7 @@
 		12AF13A81F001AD500D702F1 /* ZYCStatuBarHUD */ = {
 			isa = PBXGroup;
 			children = (
-				12AF13D11F001AFD00D702F1 /* ZYCStatuBarHUD.h */,
-				12AF13D21F001AFD00D702F1 /* ZYCStatuBarHUD.m */,
+				120E3B4E1F014E7700E1C851 /* ZYCStatuBarHUD */,
 				12AF13AC1F001AD600D702F1 /* AppDelegate.h */,
 				12AF13AD1F001AD600D702F1 /* AppDelegate.m */,
 				12AF13AF1F001AD600D702F1 /* ViewController.h */,
@@ -203,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12AF13BC1F001AD600D702F1 /* LaunchScreen.storyboard in Resources */,
+				120E3B5B1F0151B500E1C851 /* ZYCStatuBarHUD.bundle in Resources */,
 				12AF13B91F001AD600D702F1 /* Assets.xcassets in Resources */,
 				12AF13B41F001AD600D702F1 /* Main.storyboard in Resources */,
 			);
@@ -222,10 +234,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12AF13D31F001AFD00D702F1 /* ZYCStatuBarHUD.m in Sources */,
 				12AF13B71F001AD600D702F1 /* ZYCStatuBarHUD.xcdatamodeld in Sources */,
 				12AF13B11F001AD600D702F1 /* ViewController.m in Sources */,
 				12AF13AE1F001AD600D702F1 /* AppDelegate.m in Sources */,
+				120E3B591F014E7700E1C851 /* ZYCStatuBarHUD.m in Sources */,
 				12AF13AB1F001AD600D702F1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +433,7 @@
 				12AF13CD1F001AD600D702F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12AF13CE1F001AD600D702F1 /* Build configuration list for PBXNativeTarget "ZYCStatuBarHUDUITests" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +442,7 @@
 				12AF13D01F001AD600D702F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

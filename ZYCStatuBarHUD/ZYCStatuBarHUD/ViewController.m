@@ -20,7 +20,7 @@
     [ZYCStatuBarHUD showError:@"加载失败"];
 }
 - (IBAction)message:(id)sender {
-    [ZYCStatuBarHUD showMessage:@"没啥事" image:nil];
+    [ZYCStatuBarHUD showMessage:@"没啥事" image:[UIImage imageNamed:@"check"]];
     
 }
 - (IBAction)loading:(id)sender {
