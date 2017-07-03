@@ -14,11 +14,7 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    //改变了方法顺序
-    
-}
+
 - (IBAction)success:(id)sender {
     [ZYCStatusBarHUD showSuccess:@"加载成功"];
 }
@@ -35,7 +31,11 @@
 - (IBAction)hide:(id)sender {
     [ZYCStatusBarHUD hide];
 }
-
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    //改变了方法顺序
+    
+}
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     
