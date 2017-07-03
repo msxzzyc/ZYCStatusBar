@@ -13,7 +13,11 @@
 @end
 
 @implementation ViewController
-
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    //rmgegfd;kg
+}
 - (IBAction)success:(id)sender {
     [ZYCStatusBarHUD showSuccess:@"加载成功"];
 }
